@@ -1,10 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: raman-micro
+  name: manju-micro
   labels:
-    app: raman-micro
-  namespace: raman
+    app: manju-micro
+  namespace: manju
 spec:
   replicas: 1
   selector:
