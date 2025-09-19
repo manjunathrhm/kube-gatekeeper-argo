@@ -6,7 +6,7 @@ metadata:
     app: manju-micro
   namespace: manju
 spec:
-  replicas: 1
+  replicas: 4
   selector:
     matchLabels:
       app: raman-micro
